@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T13:18:37.997Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" version="14.7.6" etag="GY7UVNfH8CVqUPT2Bvlt" type="github"><diagram id="OpTycuaeYSOCsPaY_NV7">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-09T13:54:54.737Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="wIKhfiizHf6RwCZTY6bO" version="14.7.6" type="github">
+  <diagram id="OpTycuaeYSOCsPaY_NV7" name="Page-1">
+    <mxGraphModel dx="1658" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1PxBTM8Bx2ZyikVWdkpq-3" value="Send data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1PxBTM8Bx2ZyikVWdkpq-1" target="1PxBTM8Bx2ZyikVWdkpq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1PxBTM8Bx2ZyikVWdkpq-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1PxBTM8Bx2ZyikVWdkpq-1" target="1PxBTM8Bx2ZyikVWdkpq-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1PxBTM8Bx2ZyikVWdkpq-7" value="Warnings" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1PxBTM8Bx2ZyikVWdkpq-6">
+          <mxGeometry x="-0.1143" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1PxBTM8Bx2ZyikVWdkpq-1" value="Sensor system" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1PxBTM8Bx2ZyikVWdkpq-2" value="Database system" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1PxBTM8Bx2ZyikVWdkpq-4" value="Sensor System UI" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="380" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1PxBTM8Bx2ZyikVWdkpq-13" value="Acquire data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1PxBTM8Bx2ZyikVWdkpq-9" target="1PxBTM8Bx2ZyikVWdkpq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1PxBTM8Bx2ZyikVWdkpq-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.992;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1PxBTM8Bx2ZyikVWdkpq-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="243.03999999999996" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1PxBTM8Bx2ZyikVWdkpq-16" value="Give predictions" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1PxBTM8Bx2ZyikVWdkpq-15">
+          <mxGeometry x="0.0048" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1PxBTM8Bx2ZyikVWdkpq-9" value="Analysis Engine" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="310" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1PxBTM8Bx2ZyikVWdkpq-14" value="System UI" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1PxBTM8Bx2ZyikVWdkpq-19" value="The analysis engine needs to predict the amount of water each family may require in the upcoming new month, and compare with the predicted production rate of the water supply. &lt;br&gt;If it shows that their may not be enough water available, it will generate a backup plan and notify the System.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="330" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="1PxBTM8Bx2ZyikVWdkpq-21" value="All the sensors are connected to the sensor system. &lt;br&gt;Every sensor has a default value and if the current situation is not within the acceptance range, than the sensor system will give out a warning." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="195" width="220" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="1PxBTM8Bx2ZyikVWdkpq-22" value="The Sensor UI is designed for the engineers to check the system directedly.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="390" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1PxBTM8Bx2ZyikVWdkpq-23" value="The sensor system collects data at a regular time basis, and store it into the database system." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="140" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1PxBTM8Bx2ZyikVWdkpq-24" value="The engine also give predictions if a family is using too less water( maybe an old person passed away) and too much water (if there&#39;s huge water leakage somewhere)." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="480" width="230" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
